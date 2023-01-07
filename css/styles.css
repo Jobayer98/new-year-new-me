@@ -14,6 +14,12 @@ p,li {
     line-height: 24px;
 }
 
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
 /* primary color: #005FAC;
    Dark-1 color: #151414;
    Secondarycolor: #FFFFFF;
@@ -88,10 +94,6 @@ section {
 }
 .about .weakness-tittle {
     color: #151414;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 42px;
-
     margin-bottom: 24px;
 }
 
@@ -143,9 +145,6 @@ section {
 }
 
 .motiv-title {
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 42px;
     color: #FFFFFF;
 
     width: 480px;
@@ -159,3 +158,5 @@ section {
     padding: 16px 20px;
     border: none;
 }
+
+/* Style for footer section */

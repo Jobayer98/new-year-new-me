@@ -67,7 +67,6 @@ section {
 }
 
 .header .header-description {
-  width: 100%;
   text-align: right;
   margin-bottom: 32px;
 }
@@ -82,7 +81,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 86px;
+  gap: 64px;
 }
 
 .about-weakness {
@@ -95,7 +94,6 @@ section {
 
 .about .weakness-description {
   color: #444343;
-  max-width: 85%;
   margin-bottom: 10px;
 }
 
@@ -147,7 +145,7 @@ section {
   color: #005fac;
   background-color: #ffffff;
 
-  padding: 16px 20px;
+  padding: 16px 24px;
   border: none;
 }
 
@@ -198,4 +196,12 @@ section {
 .btn-subscribe {
     color: #ffffff;
     background-color: #005fac;
+
+    padding: 16px 24px;
+}
+
+.news-letter ::-webkit-input-placeholder{
+    color: #F3F3F3;
+    font-size: 14px;
+    letter-spacing: 1.3px;
 }

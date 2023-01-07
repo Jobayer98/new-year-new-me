@@ -8,6 +8,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/*elements */
 p,li {
     font-size: 16px;
     font-weight: 400;
@@ -18,6 +19,10 @@ h2 {
     font-size: 42px;
     font-weight: 700;
     line-height: 42px;
+}
+
+section {
+    margin: 130px 150px;
 }
 
 /* primary color: #005FAC;
@@ -77,10 +82,6 @@ h2 {
 }
 
 /* Style for failure section */
-section {
-    margin: 130px 150px;
-}
-
 .about {
     display: flex;
     align-items: center;
@@ -160,3 +161,6 @@ section {
 }
 
 /* Style for footer section */
+.footer-container {
+    padding: 120px 220px;
+}

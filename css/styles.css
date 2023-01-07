@@ -17,7 +17,7 @@ li {
 }
 
 section {
-  margin: 130px 150px;
+  margin: 130px;
 }
 
 /* primary color: #005FAC;
@@ -48,11 +48,12 @@ section {
   height: 810px;
   color: #ffffff;
   background-image: url("../images/banner/banner3.png");
+  background-position: center;
 }
 
 .header-details {
   text-align: right;
-  max-width: 50%;
+  width: 40%;
   position: absolute;
   right: 0;
 
@@ -66,12 +67,8 @@ section {
 }
 
 .header .header-description {
-  max-width: 70%;
+  width: 100%;
   text-align: right;
-  position: relative;
-  left: 210px;
-
-  margin-right: 0;
   margin-bottom: 32px;
 }
 
@@ -117,9 +114,10 @@ section {
 .plan-items {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
   margin-top: 42px;
+  text-align: center;
 }
 
 .item .item_title {
@@ -162,14 +160,6 @@ section {
   display: flex;
 }
 
-.subscribe-title {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 22px;
-    
-    margin-bottom: 24px;
-}
-
 .future-description {
     max-width: 60%;
 }
@@ -180,4 +170,32 @@ section {
 
 .future .icons img{
     margin: 12px 12px 0 0;
+}
+
+.subscribe-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    
+    margin-bottom: 24px;
+}
+
+.news-letter .email {
+    font: 18px;
+    font-weight: 400;
+    line-height: 18px;
+
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+
+    background-color: #151414;
+    color: #f8f8f8;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+.btn-subscribe {
+    color: #ffffff;
+    background-color: #005fac;
 }

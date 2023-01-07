@@ -102,6 +102,13 @@ section {
   margin: 6px;
 }
 
+.about-weakness .square {
+  width: 25px;
+  height: 20px;
+  color: #06fc95;
+  margin-right: 5px;
+}
+
 /* Style for my plans section */
 
 .plans-title {
@@ -125,6 +132,7 @@ section {
 /* Style for Motivational section */
 .motivation {
   background-image: url("../images//watch.png"), url("../images/gradient1.png");
+  background-size: cover;
   background-blend-mode: soft-light;
 
   border-radius: 8px;

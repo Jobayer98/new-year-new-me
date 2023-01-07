@@ -106,3 +106,56 @@ section {
     list-style: none;
     margin: 6px;
 }
+
+/* Style for my plans section */
+
+.plans-title {
+    text-align: center;
+    color: #151414;
+    font-size: 42px;
+    font-weight: 700;
+
+    line-height: 42px;
+}
+
+.plan-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 52px;
+}
+
+.item .item_title {
+    margin: 12px 0;
+}
+
+/* Style for Motivational section */
+.motivation {
+    background-image: url('../images//watch.png'), url('../images/gradient1.png');
+    background-blend-mode: soft-light;
+
+    border-radius: 8px;
+}
+
+.motivation > div {
+    padding: 68px 56px;
+}
+
+.motiv-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #FFFFFF;
+
+    width: 480px;
+    margin-bottom: 24px;
+}
+
+.btn-call {
+    color: #005FAC;
+    background-color: #FFFFFF;
+
+    padding: 16px 20px;
+    border: none;
+}
